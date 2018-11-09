@@ -1,0 +1,105 @@
+﻿<repository
+id="71c88490-5a27-4642-9bc7-9c22856fcb1a"
+name="MyTestRepository"
+rxversion="8.3">
+	<codegen
+	classname="MyTestRepository"
+	namespace="MyTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="81744807-dda7-45ba-b15d-c54faa022822"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="70993b15-95df-4408-a3f8-d50e41525436"
+		isrooted="True"
+		name="KeyPromptForm"
+		refpath="/form[@controlname='KeyPromptForm']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="16834a75-35ff-4c2b-8f78-e69452444dd0"
+			name="Text"
+			refimgid="c956c732-47a1-4aaa-9d7d-9bb79626507a"
+			refpath="/form[@controlname='KeyPromptForm']/text[@controlname='m_tbPassword']/text[@accessiblerole='Text']"
+			searchtimeout="30000ms">
+				/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="0d0a8d67-f781-474d-892b-a679e5207b22"
+			name="MBtnOK"
+			refimgid="1e0659fc-c48d-4f56-bb7b-eddd45e23e36"
+			refpath="/form[@controlname='KeyPromptForm']/button[@controlname='m_btnOK']"
+			searchtimeout="30000ms">
+				/form[@controlname='KeyPromptForm']/button[@controlname='m_btnOK']
+			</item>
+			<basepath>
+				/form[@controlname='KeyPromptForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAITSURBVDhPjZLdS1RRFMXvS6kwQUhh9Sdk6Exp
+2gdC1mNJjQYhgQU+OUFRhAqjTtMHQkhQEPZWEUQaPSgTDuiAIiHjt09ZRPWgQ4am48zVuc5tedce
+z+XOg+WC9XD2Ob+zz95na/9QreWvlg3LYcsHLO9Iq5YRjY5hPWVCXzOR0E20BR6AccsBHtpOMIwN
+gX7GDHz+kcLk7Bo+zejoH01icTmNxuYAL0lnjmcLpvkXC0sbAruPlqmM4udvRtHVH0d4JInI0BRj
+fKmtBDMr2Hu5TiCV2d/+TtavQivo/PAHA2NJFB5xM3aQMJX1bK77hucF7h1elcyuPfk47K7Ek7dL
+ePhyEd/nDDlHuJYNc9bMDSfMzJ7y89ibf0hg/4vf6I7E7Qu+sdsKfv0+io7OPjx69hFtHSE0t4dw
+O9gLX0sP6pt6BL7zdAENj3/hYvVVuSDF56tu1/uCqDhXg1NnalBeUY2S0154TnpRVOZFYeklG75+
+PwbfzRa5IMx/Vg3zHD+rniZmzc61gq8FYygqLmVMK+CQqJqLSyqzANbsXBO+4p/H4KSuYiIZEjbs
+2IkLyM1zIYfOdWE3nePCri0Trro7h+kv64QTGVzTGjlhHBL+s/oqZ8NUZsJTswLb2ZXSA4MTiIzr
+/4X37S8gXJXBshXnhHFI+M8KrrsXw5BV89azt4WVOJ5ykP9841ar6jZt15yRpm0C6Bvp4G0/Ik0A
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="ce04a1c8-11f2-4946-b639-e59bce302f27"
+		isrooted="True"
+		name="MainForm"
+		refpath="/form[@controlname='MainForm']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="c13d9b70-328e-4c4a-9f3b-1b39f1698bc1"
+			name="Close"
+			refimgid="42fb60b5-69cd-4af3-99cc-3648dffacbf4"
+			refpath="/form[@controlname='MainForm']/titlebar/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']/?/?/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@controlname='MainForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAITSURBVDhPjZLdS1RRFMXvS6kwQUhh9Sdk6Exp
+2gdC1mNJjQYhgQU+OUFRhAqjTtMHQkhQEPZWEUQaPSgTDuiAIiHjt09ZRPWgQ4am48zVuc5tedce
+z+XOg+WC9XD2Ob+zz95na/9QreWvlg3LYcsHLO9Iq5YRjY5hPWVCXzOR0E20BR6AccsBHtpOMIwN
+gX7GDHz+kcLk7Bo+zejoH01icTmNxuYAL0lnjmcLpvkXC0sbAruPlqmM4udvRtHVH0d4JInI0BRj
+fKmtBDMr2Hu5TiCV2d/+TtavQivo/PAHA2NJFB5xM3aQMJX1bK77hucF7h1elcyuPfk47K7Ek7dL
+ePhyEd/nDDlHuJYNc9bMDSfMzJ7y89ibf0hg/4vf6I7E7Qu+sdsKfv0+io7OPjx69hFtHSE0t4dw
+O9gLX0sP6pt6BL7zdAENj3/hYvVVuSDF56tu1/uCqDhXg1NnalBeUY2S0154TnpRVOZFYeklG75+
+PwbfzRa5IMx/Vg3zHD+rniZmzc61gq8FYygqLmVMK+CQqJqLSyqzANbsXBO+4p/H4KSuYiIZEjbs
+2IkLyM1zIYfOdWE3nePCri0Trro7h+kv64QTGVzTGjlhHBL+s/oqZ8NUZsJTswLb2ZXSA4MTiIzr
+/4X37S8gXJXBshXnhHFI+M8KrrsXw5BV89azt4WVOJ5ykP9841ar6jZt15yRpm0C6Bvp4G0/Ik0A
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
