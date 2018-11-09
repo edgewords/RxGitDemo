@@ -1600,6 +1600,18 @@ O9FHeuU6QooooAKKKKACiiigAooooAKKKKAA9qKD2ooAKKKKACiiigAooooAK5DWP+QlL9T/ADNd
 fXIax/yEpfqf5mtKe5nU2KVLSUtbGQUUUUAFFFFABS0CigAooooEJRRRQMSilooA/9k=
 			</helperscreenshot>
 		</mouseitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="End of test"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="dd0b5e54-5078-4633-a94b-bf5f20a37573">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="71c88490-5a27-4642-9bc7-9c22856fcb1a"

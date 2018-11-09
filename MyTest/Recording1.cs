@@ -99,6 +99,8 @@ namespace MyTest
             repo.MainForm.Close.Click("23;23");
             Delay.Milliseconds(200);
             
+            Report.Log(ReportLevel.Info, "User", "End of test", new RecordItemIndex(5));
+            
         }
 
 #region Image Feature Data
